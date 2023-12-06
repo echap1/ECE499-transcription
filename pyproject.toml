@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ece499-transcription"
+version = "0.1.0"
+description = ""
+authors = ["Ethan Chapman <ethan.chapman0@outlook.com>"]
+readme = "README.md"
+packages = [{include = "ece499_transcription"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+transformers = "^4.35.2"
+sounddevice = "^0.4.6"
+numpy = "^1.26.2"
+pydub = "^0.25.1"
+tensorflow = "^2.15.0"
+torch = "^2.1.1"
+librosa = "^0.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
